@@ -170,6 +170,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorRockstars.Web.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckMvc", "..\tests\CheckMvc\CheckMvc.csproj", "{50971470-179A-45D1-92C9-748DEFCBD9E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStack.Authentication.DocumentDb", "ServiceStack.Authentication.DocumentDb\ServiceStack.Authentication.DocumentDb.csproj", "{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -870,6 +872,24 @@ Global
 		{50971470-179A-45D1-92C9-748DEFCBD9E5}.Signed|Mixed Platforms.Build.0 = Release|Any CPU
 		{50971470-179A-45D1-92C9-748DEFCBD9E5}.Signed|x86.ActiveCfg = Release|Any CPU
 		{50971470-179A-45D1-92C9-748DEFCBD9E5}.Signed|x86.Build.0 = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Debug|x86.Build.0 = Debug|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Release|x86.ActiveCfg = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Release|x86.Build.0 = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Signed|Any CPU.Build.0 = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Signed|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Signed|Mixed Platforms.Build.0 = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Signed|x86.ActiveCfg = Release|Any CPU
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121}.Signed|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -909,6 +929,7 @@ Global
 		{AA7027C6-2C94-4E44-83A2-275EEE473045} = {515043B6-1FFD-4CBF-8916-23B82C67CF8C}
 		{1AD83DAD-3C69-4343-983E-074F0374EE80} = {4EBD29DD-21A1-47B5-80DB-F9D58C91BED5}
 		{50971470-179A-45D1-92C9-748DEFCBD9E5} = {4EBD29DD-21A1-47B5-80DB-F9D58C91BED5}
+		{0A6F8BEF-9D45-459B-B729-C0CBDE1E8121} = {2E143186-E565-48B8-A8AE-6FE03B70FE68}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ..\tests\RazorRockstars.Console\RazorRockstars.Console.csproj
